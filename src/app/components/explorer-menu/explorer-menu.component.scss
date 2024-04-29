@@ -20,15 +20,15 @@
 body .explorer-menu__container {
   height: 50px;
   display: flex;
-  margin: 0 -16px;
+  margin: 0 16px 0 16px;
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;
   background: transparent;
 
-  .mat-mdc-button {
-    --mdc-text-button-label-text-color: #fff;
-  }
+  // .mat-mdc-button {
+  //   --mdc-text-button-label-text-color: #fff;
+  // }
 }
 
 .explorer-menu__network-name {

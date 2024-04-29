@@ -18,8 +18,8 @@
 
 .network-page {
   min-height: 100%;
-  background: var(--ps-top-bar-bg-color);
-  color: #fff;
+  // background: var(--ps-top-bar-bg-color);
+  // color: #fff;
 }
 
 .network-explorer-container {
@@ -28,16 +28,20 @@
   background: var(--ps-explorer-container, #fff);
   border-radius: 4px;
   color: #222;
+  min-height: 100vh;
 }
 
 .network-explorer-bottom-bar {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  z-index: 1000;
+  // position: fixed;
+  height: 56px;
+  // margin-top: 20px;
+  // bottom: 0;
+  // left: 0;
+  // right: 0;
+  // z-index: 1000;
   display: flex;
-  justify-content: space-between;
+  // justify-content: space-between;
+  justify-content: center;
   align-items: center;
   column-gap: 16px;
   background: var(--ps-bottom-bar-bg-color, #333);

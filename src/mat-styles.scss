@@ -66,7 +66,7 @@ $explorer-ui-theme: mat.define-light-theme((
 body {
   @include mat.all-component-themes($explorer-ui-theme);
   @include mat.all-component-typographies($explorer-ui-typography);
-  @include mat.private-form-field-density(-1);
+  // @include mat.private-form-field-density(-1);
 }
 
 .cdk-overlay-container {

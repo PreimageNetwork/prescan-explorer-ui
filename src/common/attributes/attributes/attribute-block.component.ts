@@ -24,7 +24,7 @@ import { ActivatedRoute } from '@angular/router';
   template: `
     <ng-container *ngIf="attribute">
       <a [routerLink]="'/block/' + attribute.value" [relativeTo]="relativeToRoute">
-        Block {{ attribute.value }}}}
+        Block {{ attribute.value }}&#125;&#125;
       </a>
     </ng-container>
   `,

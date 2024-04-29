@@ -18,7 +18,7 @@
 
 <nav *ngIf="(network | async) as name" class="explorer-menu__container">
 
-  <button mat-flat-button routerLink=".">Dashboard</button>
+  <button mat-button routerLink=".">Home</button>
 
   <button mat-button [matMenuTriggerFor]="menuChain">Chain <i class="fas fa-chevron-down"></i></button>
   <mat-menu #menuChain="matMenu">
